@@ -86,7 +86,7 @@ Magic lies in git branching. Wanna see? Follow along with the demo.
 
 #### **Finally moving online on GitHub**
 
-Make a new [GitHub account](github.com) and a new repository in your account. Make sure to have basic knowledge about **[intellectual property** ](https://choosealicense.com/)[licenses](https://choosealicense.com/) and add a relevant license to every repo you make. Read more about the [legal side of Open Source software here](https://opensource.guide/legal/).
+Make a new [GitHub account](github.com) and a new repository in your account. Make sure to have basic knowledge about [intellectual property](https://choosealicense.com/)[licenses](https://choosealicense.com/) and add a relevant license to every repo you make. Read more about the [legal side of Open Source software here](https://opensource.guide/legal/).
 
 #### **Tip**
 
@@ -198,9 +198,9 @@ Now staging and committing the repository again will have the submodule removed 
 
 #### Task
 
-This is just to see if you have understood using git from git bash (terminal), in conjunction with GitHub. Create a repository, and try out as many of these commands as you can - create multiple branches, commits; try to merge them. As a bonus, try to find online, how you can undo a commit (for those oopsies and spelling mistakes ;), go back to a different commit to view older files, perhaps even create a branch from an old point in history. You must be able to use the commands add, commit, push, pull and branch as these are used very frequently. However, use this opportunity to try out the rest as well, because they can get challenging when you actually have to use them. To view how much you’ve understood, we’d like you to share the history of your repo. For this type the command:
+This is just to see if you have understood using git from git bash (terminal), in conjunction with GitHub. Create a repository, and try out as many of these commands as you can - create multiple branches, commits; try to merge them. As a bonus, try to find online, how you can undo a commit (for those oopsies and spelling mistakes ;), go back to a different commit to view older files, perhaps even create a branch from an old point in history. You must be able to use the commands add, commit, push, pull and branch as these are used very frequently. However, use this opportunity to try out the rest as well, because they can get challenging when you actually have to use them. To view how much you’ve understood, we’d like you to share the history of your repo. For this, use any one of the following command:
 
-git log--graph--pretty="%C(bold blue)%h" --decorate --all
+git log --graph--pretty="%C(bold blue)%h" --decorate --all
 
 git log --graph --pretty="%C(yellow) Hash: %h %C(blue)Date: %ad %C(red) Message: %s " --date=human
 
